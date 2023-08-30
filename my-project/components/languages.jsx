@@ -1,14 +1,15 @@
 export default function Languages() {
   return (
     <div id="languages" className="flex flex-col mt-24 mx-[10%]">
-      <h3 className="mx-auto font-extrabold md:text-3xl mb-10 text-2xl text-center ">
+      <h3 className="mx-auto font-extrabold md:text-3xl mb-10 sm:text-2xl text-xl text-center ">
         Languages-technologies
       </h3>
       <ul className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-5 ">
         <li className="w-auto h-auto text-center hover:text-cyan-400 hover:border-cyan-400 hover:border hover:rounded-2xl">
           <img
             src="html.png"
-            className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh] "
+            className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh]"
+            loading="lazy"
           ></img>
           <div className="">HTML</div>
         </li>
@@ -16,6 +17,7 @@ export default function Languages() {
           <img
             src="javascript.png"
             className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh]"
+            loading="lazy"
           ></img>
           <div className="">Javascript</div>
         </li>
@@ -24,6 +26,7 @@ export default function Languages() {
           <img
             src="css.png"
             className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh]"
+            loading="lazy"
           ></img>
           <div className="">CSS</div>
         </li>
@@ -31,6 +34,7 @@ export default function Languages() {
           <img
             src="php.png"
             className="w-[100%] h-auto mx-auto mt-[20%] mb-[20%] max-w-[80vw] max-h-[80vh] "
+            loading="lazy"
           ></img>
           <div className="pt-[8%] md:pt-[17%]">PHP</div>
         </li>
@@ -38,6 +42,7 @@ export default function Languages() {
           <img
             src="tailwind.png"
             className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh]"
+            loading="lazy"
           ></img>
           <div className="">Tailwindcss</div>
         </li>
@@ -45,6 +50,7 @@ export default function Languages() {
           <img
             src="react.png"
             className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh]"
+            loading="lazy"
           ></img>
           <div className="">React</div>
         </li>
@@ -52,6 +58,7 @@ export default function Languages() {
           <img
             src="sql.png"
             className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh]"
+            loading="lazy"
           ></img>
           <div className="">MYSQL</div>
         </li>
@@ -59,6 +66,7 @@ export default function Languages() {
           <img
             src="git.png"
             className="w-[100%] h-[100%] max-w-[80vw] max-h-[80vh]"
+            loading="lazy"
           ></img>
           <div className="">Git</div>
         </li>
