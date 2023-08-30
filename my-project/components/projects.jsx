@@ -6,20 +6,20 @@ export default function Projects() {
         <div className="h-[100%] w-[100%] bg-cyan-400 rounded-lg ">
           <img className="md:w-[70%] md:h-[60%]  h-[20vh] w-[100%] mx-auto my-5 rounded-2xl max-h-[60vh] max-w-[60vw] px-2" src='coursero.png ' loading="lazy"></img>
           <p className="text-center font-bold ">
-              coursero          
+              Coursero          
           </p>
           <span className="w-[80%] mx-[10%] inline-block"><hr></hr></span>
           <p className="text-center text-sm md:text-base"> created using (PHP-Html-CSS-JS)</p>
-          <p className="text-center my-2"><a href='https://github.com/ahmad-hawchar/coursero-project' className="bg-teal-500 p-1 rounded-md hover:font-bold my-1">check it our here!</a></p>
+          <p className="text-center my-2"><a href='https://github.com/ahmad-hawchar/coursero-project' className="bg-purple-500 hover:bg-purple-600 p-1 rounded-md hover:font-bold my-1">check it our here!</a></p>
         </div>
         <div className="md:h-96 md:w-[100%] bg-cyan-400 rounded-lg  ">
           <img className="md:w-[70%] md:h-[60%]  h-[20vh] w-[100%] mx-auto my-5 rounded-2xl max-h-[60vh] max-w-[60vw] px-2" src='portfolio.png' loading="lazy"></img>
           <p className="text-center font-bold ">
-            portfolio          
+            Portfolio          
           </p>
           <span className="w-[80%] mx-[10%] inline-block"><hr></hr></span>
           <p className="text-center text-sm md:text-base"> created using (React-tailwindcss)  </p>
-          <p className="text-center my-2"><a href='https://github.com/ahmad-hawchar/portfolio' className="bg-teal-500 p-1 rounded-md hover:font-bold my-1 ">check it our here!</a></p>
+          <p className="text-center my-2"><a href='https://github.com/ahmad-hawchar/portfolio' className="bg-purple-500  hover:bg-purple-600 p-1 rounded-md hover:font-bold my-1 ">check it our here!</a></p>
         </div>
       </div>
     </div>

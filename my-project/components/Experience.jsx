@@ -10,7 +10,7 @@ export default function Experience() {
           <span className="text-cyan-400 mr-3 font-bold">
             july,2023-present
           </span>
-          freelancer
+          Freelancer
         </div>
         <div>
           

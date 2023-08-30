@@ -36,22 +36,22 @@ export default function Header(props) {
           <input type="button" value="||||" className={ sidebar?"w-[5vw] right-3 top-2 absolute hidden":"w-[5vw] right-3 top-2 absolute flex"}  onClick={ ()=>{setsidebar(!sidebar)}}></input>
           <div className={ sidebar?"flex flex-col  right-0 top-0 absolute text-start bg-cyan-400 w-18 ":"hidden"}>
           <input type="button" className="" value="X" onClick={ ()=>{setsidebar(!sidebar)}}></input>
-          <div className=" ">
+          <div className="px-1">
             <a href={props.link + "/#about"}>About</a>
           </div>
           <div>
-            <a className="" href={props.link + "/#languages"}>
+            <a className="p-1" href={props.link + "/#languages"}>
               Languages
             </a>
           </div>
           <div>
-            <a className="" href={props.link + "/#projects"}>
+            <a className="p-1" href={props.link + "/#projects"}>
               My Projects
             </a>
           </div>
 
           <div>
-            <a className=" " href={props.link + "/#experiences"}>
+            <a className="p-1" href={props.link + "/#experiences"}>
               Experience
             </a>
           </div>
