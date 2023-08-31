@@ -5,7 +5,7 @@ export default function About() {
       <div className="flex flex-wrap justify-center">
         <div className="w-6/12 sm:w-4/12 px-4">
           <img
-            src="linkedinprofile.png"
+            src="./linkedinprofile.png"
             alt="my photo"
             className="rounded-full shadow-xl max-w-full h-auto align-middle border-none hover:shadow-cyan-400"
           />

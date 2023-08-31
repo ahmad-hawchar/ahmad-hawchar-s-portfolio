@@ -10,7 +10,7 @@ import Tail from"../components/pointer"
 function App() {
   return (
     <>
-      <Header link='http://localhost:5173'></Header>
+      <Header link=''></Header>
       <Tail></Tail>
       <Links></Links>
       <About></About>
