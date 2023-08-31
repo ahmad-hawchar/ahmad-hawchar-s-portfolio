@@ -33,9 +33,9 @@ export default function Header(props) {
           className="col-span-3 flex-col   flex md:hidden text-right  h-[100%] relative "
         >
           
-          <input type="button" value="||||" className={ sidebar?"w-[5vw] right-3 top-2 absolute hidden":"w-[5vw] right-3 top-2 absolute flex"}  onClick={ ()=>{setsidebar(!sidebar)}}></input>
+          <input type="button" value="||||" className={ sidebar?"w-[5vw] right-3 top-2 absolute hidden":"w-[5vw] right-3 top-2 absolute flex hover:text-cyan-400"}  onClick={ ()=>{setsidebar(!sidebar)}}></input>
           <div className={ sidebar?"flex flex-col  right-0 top-0 absolute text-start bg-cyan-400 w-18 ":"hidden"}>
-          <input type="button" className="" value="X" onClick={ ()=>{setsidebar(!sidebar)}}></input>
+          <input type="button" className="border-b-cyan-900" value="X" onClick={ ()=>{setsidebar(!sidebar)} }></input>
           <div className="px-1">
             <a href={props.link + "/#about"}>About</a>
           </div>

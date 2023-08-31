@@ -6,7 +6,6 @@ import Projects from "../components/projects";
 import Experience from "../components/Experience";
 import Links from"../components/links"
 import Contact from"../components/contact"
-
 function App() {
   return (
     <>

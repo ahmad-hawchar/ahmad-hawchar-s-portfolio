@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <div id='projects' className="flex flex-col mt-24 mx-[10%]  text-gray-900">
+    <div id='projects' className="flex flex-col mt-24 mx-[10%]  text-white">
       <h3 className="mx-auto font-extrabold text-3xl mb-10 text-white ">My Projects</h3>
       <div className="grid grid-cols-2 justify-center gap-5">
         <div className="h-[100%] w-[100%] bg-cyan-400 rounded-lg ">
