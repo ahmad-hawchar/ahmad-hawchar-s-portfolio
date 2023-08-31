@@ -6,10 +6,12 @@ import Projects from "../components/projects";
 import Experience from "../components/Experience";
 import Links from"../components/links"
 import Contact from"../components/contact"
+import Tail from"../components/pointer"
 function App() {
   return (
     <>
       <Header link='http://localhost:5173'></Header>
+      <Tail></Tail>
       <Links></Links>
       <About></About>
       <Languages></Languages>
