@@ -12,7 +12,7 @@ export default function Header(props) {
             <a href={props.link + "#about"}>About</a>
           </div>
           <div>
-            <a className="ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "languages"}>
+            <a className="ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "#languages"}>
               Languages
             </a>
           </div>
@@ -37,7 +37,7 @@ export default function Header(props) {
           <div className={ sidebar?"flex flex-col  right-0 top-0 absolute text-start bg-cyan-400 w-18 ":"hidden"}>
           <input type="button" className="border-b-cyan-900" value="X" onClick={ ()=>{setsidebar(!sidebar)} }></input>
           <div className="px-1">
-            <a href={props.link + "/#about"}>About</a>
+            <a href={props.link + "#about"}>About</a>
           </div>
           <div>
             <a className="p-2" href={props.link + "#languages"}>
