@@ -9,21 +9,21 @@ export default function Header(props) {
         </div>
         <div className="col-span-3 md:flex my-auto  hidden">
           <div className="ml-auto hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold ">
-            <a href={props.link + "/#about"}>About</a>
+            <a href={props.link + "#about"}>About</a>
           </div>
           <div>
-            <a className="ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "/#languages"}>
+            <a className="ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "languages"}>
               Languages
             </a>
           </div>
           <div>
-            <a className="ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "/#projects"}>
+            <a className="ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "#projects"}>
               My Projects
             </a>
           </div>
 
           <div>
-            <a className="mr-3 ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "/#experiences"}>
+            <a className="mr-3 ml-2 hover:border-t-cyan-400 hover:border-t-2 hover:font-semibold" href={props.link + "#experiences"}>
               Experience
             </a>
           </div>
@@ -40,18 +40,18 @@ export default function Header(props) {
             <a href={props.link + "/#about"}>About</a>
           </div>
           <div>
-            <a className="p-1" href={props.link + "/#languages"}>
+            <a className="p-2" href={props.link + "#languages"}>
               Languages
             </a>
           </div>
           <div>
-            <a className="p-1" href={props.link + "/#projects"}>
+            <a className="p-2" href={props.link + "#projects"}>
               My Projects
             </a>
           </div>
 
           <div>
-            <a className="p-1" href={props.link + "/#experiences"}>
+            <a className="p-2" href={props.link + "#experiences"}>
               Experience
             </a>
           </div>
